@@ -45,7 +45,7 @@ namespace Tyuiu.RomanovichEN.Sprint2.Task6.V13.Lib
                     g += 1; 
                 }
             }
-            string date = $"{n}.{m}.{g}";
+            string date = $"0{n}.0{m}.{g}";
             return date;
         }
     }
